@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "384231570421",
+    "firebase_url": "https://squawker-aeab2.firebaseio.com",
+    "project_id": "squawker-aeab2",
+    "storage_bucket": "squawker-aeab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384231570421:android:3345804a39540d3f",
+        "android_client_info": {
+          "package_name": "android.example.com.squawker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384231570421-el1bg00vpr54kp69guufh5fa0hjr47m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgNujEW81Ls9CuA3h1I2e7A62wKX9ifUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384231570421:android:18671ed9433f1eae",
+        "android_client_info": {
+          "package_name": "com.rahulxyz.restapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384231570421-vnb7baa7gn4r9oovk02355ppa02e5j9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahulxyz.restapp",
+            "certificate_hash": "dc122e36c2fb53296245b98094312c18146f4fbe"
+          }
+        },
+        {
+          "client_id": "384231570421-el1bg00vpr54kp69guufh5fa0hjr47m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgNujEW81Ls9CuA3h1I2e7A62wKX9ifUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384231570421-el1bg00vpr54kp69guufh5fa0hjr47m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384231570421:android:085b6d4be31ced48",
+        "android_client_info": {
+          "package_name": "com.rahulxyz.foodish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384231570421-5r88k2cts4pcvaifkcpvrqqg97tp1s0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahulxyz.foodish",
+            "certificate_hash": "dc122e36c2fb53296245b98094312c18146f4fbe"
+          }
+        },
+        {
+          "client_id": "384231570421-el1bg00vpr54kp69guufh5fa0hjr47m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgNujEW81Ls9CuA3h1I2e7A62wKX9ifUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384231570421-el1bg00vpr54kp69guufh5fa0hjr47m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

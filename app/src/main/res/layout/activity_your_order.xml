@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appBarHeight"
+        android:background="@color/primary"
+        android:elevation="@dimen/appbar_elevation"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:expandedTitleMarginStart="72dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_yourOrder"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:contentInsetStart="72dp"
+                app:layout_collapseMode="pin"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="72dp"
+                android:text="@string/yourorder_title"
+                android:textColor="#ffffff"
+                android:textSize="32sp" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.rahulxyz.foodish.Activity.YourOrder">
+
+            <com.rahulxyz.foodish.ui.MaxWidthLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="@dimen/detail_card_max_width"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_horizonal_order"
+                    android:layout_marginRight="@dimen/margin_horizonal_order"
+                    android:background="#333"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_weight="1"
+                        android:text="@string/yourOrder_Name"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingStart="16dp"
+                        android:text="@string/yourOrder_Quantity"
+                        android:textColor="#fff"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/yourOrder_Price"
+                        android:textColor="#fff"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_horizonal_order"
+                    android:layout_marginRight="@dimen/margin_horizonal_order"
+                    android:layout_marginTop="4dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <TextView
+                    android:id="@+id/totalAmount"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/margin_horizonal_order"
+                    android:layout_marginTop="8dp"
+                    android:gravity="end"
+                    android:textColor="#333"
+                    android:textSize="32sp"
+                    tools:text="₹ 2000" />
+
+                <TextView
+                    android:id="@+id/placeOrder"
+                    android:layout_width="@dimen/placeOrderWidth"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="@dimen/margin_horizonal_order"
+                    android:layout_marginRight="@dimen/margin_horizonal_order"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/accent_light"
+                    android:gravity="center_horizontal"
+                    android:onClick="placeOrder"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/yourOrder_PlaceOrder"
+                    android:textColor="#fff"
+                    android:textSize="32sp" />
+
+            </com.rahulxyz.foodish.ui.MaxWidthLinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FooDish</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="zeroQuantity">Item\'s quantity is zero.</string>
+    <string name="initialQuantity">0</string>
+    <string name="atleastOneItem">Select atleast one item!</string>
+    <string name="internetErrorMessage">Please Check Your Internet Connection!</string>
+    <string name="FirebaseOrdersRef">Orders</string>
+    <string name="userName">userName</string>
+    <string name="phoneNumber">phoneNumber</string>
+    <string name="location">location</string>
+    <string name="fillDetailsMessage">Please fill in your details!</string>
+    <string name="orderPlacedMessage">Your Order has been Placed!</string>
+    <string name="indianCurrency">₹</string>
+    <string name="widgetDefaultMessage">Nothing Ordered Yet!</string>
+    <string name="amountForNoBill">0</string>
+    <string name="yourOrder_Name">Name</string>
+    <string name="yourOrder_Quantity">Quantity</string>
+    <string name="yourOrder_Price">Price</string>
+    <string name="yourOrder_PlaceOrder">Place Order</string>
+    <string name="create_order_description">Create Order</string>
+    <string name="appName">FooDish</string>
+    <string name="setting">Setting</string>
+    <string name="yourorder_title">YourOrder</string>
+
+
+</resources>

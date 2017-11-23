@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="minGridColumn">3</integer>
+    <dimen name="margin_horizonal_order">8dp</dimen>
+
+    <dimen name="appBarHeight">56dp</dimen>
+    <dimen name="detail_card_max_width">480dp</dimen>
+
+</resources>
